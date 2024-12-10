@@ -3,7 +3,9 @@
 For this project, I used SQL to design the tables to hold the data from some CSV files, import the CSV files into a SQL database, and then answer questions about the data.
 
 First, for Data Modeling, I used QuickDBD (https://www.quickdatabasediagrams.com/) to create an Entity Relationship Diagram of the tables.
+
 Next, for Data Engineering, I created a table schema for each of the CSV files in SQL.
+
 Lastly, for Data Analysis, I used SQL to help me find the answer to 8 questions:
 
 1) List the employee number, last name, first name, sex, and salary of each employee.
