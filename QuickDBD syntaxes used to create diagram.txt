@@ -1,0 +1,34 @@
+"Departments"
+-
+"dept_no" VARCHAR FK 
+"dept_name" VARCHAR
+
+"Dept_Emp"
+-
+"emp_no" INTEGER FK >-< Employees.emp_no 
+"dept_no" VARCHAR FK >-< Departments.dept_no
+
+"Dept_Manager"
+-
+"dept_no" VARCHAR FK >-< Departments.dept_no
+"emp_no" INTEGER FK >-< Employees.emp_no
+
+"Employees"
+-
+"emp_no" INTEGER FK
+"emp_title_id" VARCHAR
+"birth_date" DATE
+"first_name" VARCHAR
+"last_name" VARCHAR
+"sex" VARCHAR
+"hire_date" DATE
+
+"Salaries"
+-
+"emp_no" INTEGER FK >-< Employees.emp_no
+"salary" INTEGER
+
+"Titles"
+-
+"title_id" VARCHAR FK >-< Employees.emp_title_id
+"title" VARCHAR
